@@ -12,6 +12,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 for (int i = -number; i <= number; i++) {
 
-    Console.Write($"{i}");
-
+    if (i % 2 == 0) {
+        Console.Write($"{i}");
+    }
 }
