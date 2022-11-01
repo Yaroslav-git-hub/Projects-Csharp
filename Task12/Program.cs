@@ -15,7 +15,7 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 int Multiple(int arg1, int arg2)
 {
     return arg1 % arg2;
-}
+}  
 
 int rez = Multiple(number1, number2);
 if (rez == 0)
