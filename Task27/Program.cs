@@ -21,4 +21,4 @@ int Method(int num)
 
 int res = Method(number);
 
-Console.Write($"Сумма цифр числа {number} = {res}");
+Console.Write($"Сумма цифр числа {number} = {res} ");
